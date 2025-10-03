@@ -7,6 +7,4 @@ numpy
 pillow
 matplotlib
 scikit-learn
-pytorch-grad-cam
-lime
-shap
+setuptools
