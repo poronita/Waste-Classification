@@ -14,6 +14,11 @@ Original file is located at
 # - classify uploaded images with any found models (ResNet50, MobileNetV2, EfficientNetB0)
 # - show comparison, show precomputed plots & tables, show Grad-CAM if available
 # - CPU-safe, defensive (won't crash if pieces are missing)
+import pkg_resources
+import streamlit as st
+
+st.write("Installed packages:")
+st.write([d.project_name for d in pkg_resources.working_set])
 
 import streamlit as st
 import zipfile, tempfile, os, shutil, glob
