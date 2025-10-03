@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1_AfEYQQEZjX7HoosUJ6JgHLKeaTmhWpo
 """
 
-!pip install streamlit
+#!pip install streamlit
 
 # streamlit_app.py
 # Streamlit app to load a submission_package (zip) containing models, plots, csvs
