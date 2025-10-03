@@ -1,0 +1,9 @@
+streamlit==1.29.0
+torch             # leave version blank to get compatible wheel for platform (Streamlit Cloud will install)
+torchvision
+pillow
+numpy
+pandas
+matplotlib
+scikit-learn
+pytorch-grad-cam  # optional — only if you want GradCAM live
