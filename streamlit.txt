@@ -1,12 +1,9 @@
-streamlit==1.29.0
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
-torchaudio==2.0.2+cpu
--f https://download.pytorch.org/whl/torch_stable.html
-pillow==10.2.0
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.2
-scikit-learn==1.3.2
-seaborn==0.13.2
-pytorch-grad-cam==1.4.8
+streamlit
+torch
+torchvision
+pandas
+numpy
+pillow
+matplotlib
+scikit-learn
+pytorch-grad-cam
